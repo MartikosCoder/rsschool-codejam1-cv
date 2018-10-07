@@ -73,19 +73,32 @@
     width: 30%;
 }
 
-.example-block a {
+a {
     text-decoration: none;
     color: black;
     margin: 1%;
 }
 
-.example-block a:hover {
+a:hover {
     transition: 0.2s;
     
     border-bottom: 2px solid rgb(89, 255, 71);
     color: rgb(89, 255, 71);
 }
 
-.example-block a:active {
+a:active {
     color: rgb(26, 77, 21)
+}
+
+.lighter {
+    text-transform: uppercase;
+    color: rgb(207, 207, 207);
+}
+
+.additional-ed {
+    margin-top: 5%;
+}
+
+.course-list p {
+    margin-left: 2%;
 }
