@@ -1,0 +1,104 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.container-block {
+    margin: 50px 0;
+    padding: 25px;
+
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.even {
+    background-color: rgb(16, 160, 16);
+    color: white;
+}
+
+.odd {
+    background-color: rgb(250, 250, 250);
+
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(2, 46, 0);
+    text-align: center;
+}
+
+.profile-img {
+    float: right;
+}
+
+.author-name {
+    line-height: 12px;
+}
+
+.contact {
+    line-height: 36px;
+}
+
+.skill-block {
+    vertical-align: top;
+    text-align: center;
+    display: inline-block;
+    width: 31%;
+}
+
+.skill-block h3 {
+    font-size: 22px;
+}
+
+.skill-examples {
+    font-weight: bold;
+}
+
+.experience {
+    text-align: left;
+}
+
+.experience :nth-child(2),
+.experience :nth-child(3){
+    margin-top: 2%;
+    margin-bottom: 4%;
+}
+
+.example-block {
+    margin-left: 15%;
+    vertical-align: top;
+    display: inline-block;
+    width: 30%;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    margin: 1%;
+}
+
+a:hover {
+    transition: 0.2s;
+    
+    border-bottom: 2px solid rgb(89, 255, 71);
+    color: rgb(89, 255, 71);
+}
+
+a:active {
+    color: rgb(26, 77, 21)
+}
+
+.lighter {
+    text-transform: uppercase;
+    color: rgb(207, 207, 207);
+}
+
+.additional-ed {
+    margin-top: 5%;
+}
+
+.course-list p {
+    margin-left: 2%;
+}
