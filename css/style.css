@@ -7,12 +7,7 @@
     margin: 0 auto;
 }
 
-.title,
-.motivation,
-.skills,
-.experience,
-.education,
-.eng-level {
+.container-block {
     margin: 50px 0;
     padding: 25px;
 
@@ -51,4 +46,12 @@
     text-align: center;
     display: inline-block;
     width: 31%;
+}
+
+.skill-block h3 {
+    font-size: 22px;
+}
+
+.skill-examples {
+    font-weight: bold;
 }
