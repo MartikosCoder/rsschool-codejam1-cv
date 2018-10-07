@@ -20,16 +20,12 @@
     box-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
 
-.title,
-.skills,
-.education {
+.even {
     background-color: rgb(16, 160, 16);
     color: white;
 }
 
-.motivation,
-.experience,
-.eng-level {
+.odd {
     background-color: rgb(250, 250, 250);
 
     font-size: 18px;
@@ -48,4 +44,11 @@
 
 .contact {
     line-height: 36px;
+}
+
+.skill-block {
+    vertical-align: top;
+    text-align: center;
+    display: inline-block;
+    width: 31%;
 }
